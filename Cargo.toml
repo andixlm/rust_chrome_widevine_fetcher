@@ -1,0 +1,10 @@
+[package]
+name = "chrome_widevine_fetcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+const_format = "0.2.30"
+bytes = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"]}
+reqwest = "0.11"
